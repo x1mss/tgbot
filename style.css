@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    max-width:390px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 300px 300px;
+}
+img {
+    width: 160px;
+}
+.btn {
+    background: #4682B4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+
+}
+
+.btn:hover {
+    background: #9ACD32;
+}
